@@ -4,3 +4,7 @@ Final trained model and training dataset for the paper titled "Vision- and tacti
 
 Please refer to this link for the dataset:
 * https://usherbrooke-my.sharepoint.com/:f:/g/personal/wonc2503_usherbrooke_ca/EixcLwGRo9pBiEPZ5rIHRWoBRIp6JieEdX-SQ3n6bOMjiw
+
+
+Supplementary video:
+* https://youtu.be/r0KHTMqw31s
