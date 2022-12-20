@@ -12,7 +12,7 @@ Final trained model and training dataset for the paper titled "Vision- and tacti
 
 Requires python3, scikit-learn & dependencies
 
-# Usage:
+# Usage (with file `main.py`):
 
 **Create a model from a dataset**  
 To create a Machine Learning model from a dataset, you can use `create_model` function.
@@ -30,12 +30,14 @@ You can load a model with `model_use` function.
 * name_model (str): name of the joblib model  
 * input_data (list): list of 5 features and return predction.  
 
-# Training Dataset (in `data_raw`)
-Please refer to this link for the raw data:
-* https://usherbrooke-my.sharepoint.com/:f:/g/personal/wonc2503_usherbrooke_ca/EixcLwGRo9pBiEPZ5rIHRWoBRIp6JieEdX-SQ3n6bOMjiw
+# Training Dataset (in `datasets`)
+<!--Please refer to this link for the raw data:
+* https://usherbrooke-my.sharepoint.com/:f:/g/personal/wonc2503_usherbrooke_ca/EixcLwGRo9pBiEPZ5rIHRWoBRIp6JieEdX-SQ3n6bOMjiw -->
 
-The fully preprocessed training data file with all training samples is located in `ReducedFeatureDataset.csv`
-The columns are as follows:
+This folder includes several preprocessed datasets that includes all the training data. 
+Each file is preprocessed using different features enabled as indicated by the `ts` (touch sensor), `hp` (hand distance), `hs` (hand speed), `ga` (gaze angle), and `gs` (gaze speed) tags.
+
+The columns in each file are as follows:
 1. Touch sensor $\gamma'$
 2. Hand distance $d'$
 3. Hand speed $\dot{d}'$
@@ -43,7 +45,13 @@ The columns are as follows:
 5. Gaze speed $\dot{\alpha}'$
 6. Labeled ground truth value
 
+# Raw Data (in `raw_data`)
+Contains video frames and topics extracted from ROS. 
+The `.csv` files contain raw data for gaze estimation, human pose data extracted from OpenPose, and information from the touch sensors as well as their positions
+This raw data is then preprocessed by the methods outlined in the paper.
+
+
 # Contributors/Authors:
-Christopher Yee WONG (christopher.wong2 [at] usherbrooke.ca)  
-Lucas VERGEZ (lucas.vergez [at] ensam.eu)
-Wael SULEIMAN (wael.suleiman [at] usherbrooke.ca)
+* Christopher Yee WONG (christopher.wong2 [at] usherbrooke.ca)  
+* Lucas VERGEZ (lucas.vergez [at] ensam.eu)
+* Wael SULEIMAN (wael.suleiman [at] usherbrooke.ca)
