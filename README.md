@@ -1,5 +1,6 @@
 Final trained model and training dataset for the paper titled **"Vision- and tactile-based continuous multimodal intention and attention recognition for safer physical human-robot interaction"** 
-* Supplementary video: https://youtu.be/r0KHTMqw31s
+* Supplementary video: https://youtu.be/Tu9BA_Mq2sI
+* Paper arXiv link: https://arxiv.org/abs/2206.11350
 
 # File Struture:
 * `datasets` folder: Preprocessed training data using the reduced feature set
